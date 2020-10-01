@@ -1,0 +1,41 @@
+.profile-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    padding: 12px;
+}
+.profile{
+    width: 95%;
+    margin: auto;
+}
+.column {
+    float: left; 
+    padding: 10px !important;
+  }
+.column1{
+    width: 15%;
+}
+.column2{
+    width: 85%;
+}
+.row:after {
+    content: "";
+    display: table !important;
+    clear: both !important;
+  }
+
+  .inner-column {
+    float: left; 
+    padding: 10px !important;
+  }
+.inner-column1{
+    width: 20%;
+}
+.inner-column2{
+    width: 70%;
+}
+.inner-row:after {
+    content: "";
+    display: table !important;
+    clear: both !important;
+  }
