@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { useEffect, useState } from 'react';
+import Moment from 'react-moment';
 
 export default class Gallery extends Component {
 
@@ -43,33 +43,46 @@ export default class Gallery extends Component {
                             <img src="/img/profile.jpeg" height="300" width="300" className="profile-pic"></img>
                         </div>
                         <div className="column column2">
-                            <span> { user.name }</span>
+                            <span className="full-name"> { user.name }</span>
                             <div className="inner-row">
                                 <div className="inner-column inner-column2">
-                                    <span>BIO</span>
-                                    <label>
+                                    <span className="profile-heading">Bio</span>
+                                    <label className="profile-bio">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing…mpor incididunt ut labore et dolore magna aliqua
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing…mpor incididunt ut labore et dolore magna aliqua
                                         Lorem ipsum dolor sit amet, consectetur adipiscing…mpor incididunt ut labore et dolore magna aliqua
                                     </label>
                                 </div>
                                 <div className="inner-column inner-column1">
-                                    <span>Phone</span> <label>555-555-5555</label>
-                                    <span>Email</span> <label>{ user.email }</label>
+                                    <span className="profile-heading">Phone</span> <br/>
+                                    <label className="profile-contact">555-555-5555</label><br/>
+                                    <span className="profile-heading">Email</span> <br/>
+                                    <label className="profile-contact">{ user.email }</label>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
-                <div>
-                    {photos.map((item, index) => (
-                        <div key={index} >
-                            <span className='indent' >{item.title}</span>
-                            <span className='indent' >{item.description}</span>
-                        </div>
-                    ))}
-                        
+                <div className="row-card">
+                        {photos.map((item, index) => (
+                            <div key={index} className="column-card card">
+                               
+                                    <img src={window.location.origin + '/' +item.img} className="card-img-top" alt="..." />
+                                    <h5 className="card-title bottom-left">{item.title}</h5>
+                                    <div className="card-body">
+                                        <p className="card-text">{item.description}</p>
+                                        
+                                        <span className="featured-left">
+                                            {item.featured ? <img src={window.location.origin + '/img/red-heart.jpg' } className="heart-img" />: <div className="heart-img"></div>}
+                                        </span> 
+                                        
+                                        <span className="date-right"><Moment format="YYYY-MM-DD">{ item.updated_at }</Moment></span>
+                                    </div>
+                            </div>
+                        ))}
                 </div>
+               
             </div>
 
         );
