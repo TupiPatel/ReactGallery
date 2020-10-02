@@ -40,22 +40,20 @@ export default class Gallery extends Component {
                 <div className="card ">
                     <div className="row profile">
                         <div className="column column1">
-                            <img src="/img/profile.jpeg" height="300" width="300" className="profile-pic"></img>
+                            <img src={window.location.origin + '/' + user.profile } height="300" width="300" className="profile-pic"></img>
                         </div>
                         <div className="column column2">
                             <span className="full-name"> { user.name }</span>
                             <div className="inner-row">
                                 <div className="inner-column inner-column2">
-                                    <span className="profile-heading">Bio</span>
+                                    <span className="profile-heading">Bio</span> <br />
                                     <label className="profile-bio">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing…mpor incididunt ut labore et dolore magna aliqua
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing…mpor incididunt ut labore et dolore magna aliqua
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing…mpor incididunt ut labore et dolore magna aliqua
+                                       {user.bio}
                                     </label>
                                 </div>
                                 <div className="inner-column inner-column1">
                                     <span className="profile-heading">Phone</span> <br/>
-                                    <label className="profile-contact">555-555-5555</label><br/>
+                                    <label className="profile-contact">{user.phone}</label><br/>
                                     <span className="profile-heading">Email</span> <br/>
                                     <label className="profile-contact">{ user.email }</label>
                                 </div>

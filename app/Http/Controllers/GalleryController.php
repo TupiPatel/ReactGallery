@@ -23,7 +23,7 @@ class GalleryController extends Controller
         $fields_to_remove = ['email_verified_at', 'password', 'remember_token', 'created_at'];
 
         // Get the result of database
-        $userId = 1;
+        $userId = 4;
      
         $user = User::find($userId);
 
