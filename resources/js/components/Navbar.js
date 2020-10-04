@@ -20,23 +20,7 @@ export default class Navbar extends Component {
                             GALLERY
                         </Link>
                     </li>
-                    <li className="nav-item">
-                        <Link
-                            to={'/upload'}
-                            className={`nav-link ${this.props.location.pathname === '/upload' ? 'active' : ''}`}
-                        >
-                            UPLOADER
-                        </Link>
-                    </li>
- 
-                    <li className="nav-item">
-                        <Link
-                            to={'/manage'}
-                            className={`nav-link ${this.props.location.pathname === '/manage' ? 'active' : ''}`}
-                        >
-                            MANAGE
-                        </Link>
-                    </li>
+                    
                     <li className="nav-item">
                         <a className="nav-link" href="/logout">LOGOUT</a>
                     </li>

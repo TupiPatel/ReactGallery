@@ -15,6 +15,7 @@ class RedirectIfAuthenticated
      * @param  \Closure  $next
      * @param  string|null  ...$guards
      * @return mixed
+     * RouteServiceProvider::HOME
      */
     public function handle($request, Closure $next, ...$guards)
     {
@@ -22,7 +23,7 @@ class RedirectIfAuthenticated
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
-                return redirect(RouteServiceProvider::HOME);
+                return redirect('/');
             }
         }
 

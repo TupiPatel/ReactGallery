@@ -121,3 +121,10 @@ html{
     height: 20px;
     width: 20px;
 }
+.not-found{
+    padding: 50px;
+}
+a {
+    color: #ffffff !important;
+    font-weight: bold;
+}

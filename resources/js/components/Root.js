@@ -1,15 +1,9 @@
-import {Route} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import React, {Component, Fragment} from 'react';
 import Navbar from "./Navbar";
 import Gallery from "./Gallery";
-//import Uploader from "./Uploader";
-//import ManageGallery from "./ManageGallery";
- /*
-<Route exact path="/" component={Gallery}/>
-<Route exact path="/manage" component={ManageGallery}/>
-<Route exact path="/upload" component={Uploader}/>
+import NotFoundPage from './NotFoundPage';
 
-*/
 export default class Root extends Component {
     render() {
         return (
@@ -17,9 +11,11 @@ export default class Root extends Component {
                 <Route path="/" render={(props) => (
                     <Navbar {...props}/>
                 )}/>
- 
-                <div className="container">
-                    <Route exact path="/" component={Gallery}/>
+                 <div className="container">
+                    <Switch>
+                        <Route exact path="/" component={Gallery}/>
+                        <Route path="*" component={NotFoundPage} />
+                    </Switch>
                 </div>
             </Fragment>
         );
