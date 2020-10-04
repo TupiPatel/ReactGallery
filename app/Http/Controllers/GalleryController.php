@@ -23,9 +23,11 @@ class GalleryController extends Controller
         $fields_to_remove = ['email_verified_at', 'password', 'remember_token', 'created_at'];
 
         // Get the result of database
-        $userId = 4;
+       
+       $userId = 4; 
+        $userData =auth('api')->user();
      
-        $user = User::find($userId);
+       $user = User::find($userId);
 
         // Transform user object to array
          $user = $user->toArray();
@@ -40,14 +42,16 @@ class GalleryController extends Controller
        // print_r( json_encode($result));
 
         $photos = Photos::get()->toArray();
+       return  response()->json([
+            $result,
+            "photos" => $photos,
+            "data" => $userData
+        ]) ;
     
-     /* return response()->json([
-          "user" => $result,
-          "photos" => $photos
-      ]);*/
-      return (json_encode([
-        $result,
-        "photos" => $photos
-    ]));
+           /* return (json_encode([
+                    $result,
+                    "photos" => $photos,
+                 "data" => $userData
+                ]));*/
     }
 }

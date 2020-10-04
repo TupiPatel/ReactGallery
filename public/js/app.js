@@ -6394,6 +6394,112 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-awesome-lightbox/build/style.css":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-awesome-lightbox/build/style.css ***!
+  \*********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.lb-icon-close{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8bWV0YWRhdGE+SWNvRm9udCBJY29uczwvbWV0YWRhdGE+Cjx0aXRsZT5jbG9zZS1saW5lPC90aXRsZT4KPGdseXBoIGdseXBoLW5hbWU9ImNsb3NlLWxpbmUiIHVuaWNvZGU9IiYjeGVlZTE7IiBob3Jpei1hZHYteD0iMTAwMCIgLz4KPHBhdGggIGZpbGw9IiNmZmZmZmYiIGQ9Ik03NjIuNSAyMDBsMzcuNSAzNy41LTI2Mi41IDI2Mi41IDI2Mi41IDI2Mi41LTM3LjUgMzcuNS0yNjIuNS0yNjIuNS0yNjIuNSAyNjIuNS0zNy41LTM3LjUgMjYyLjUtMjYyLjUtMjYyLjUtMjYyLjUgMzcuNS0zNy41IDI2Mi41IDI2Mi41eiIvPgo8L3N2Zz4=\");\n}\n.lb-icon-arrow{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8bWV0YWRhdGE+SWNvRm9udCBJY29uczwvbWV0YWRhdGE+Cjx0aXRsZT5hcnJvdy1sZWZ0PC90aXRsZT4KPGdseXBoIGdseXBoLW5hbWU9ImFycm93LWxlZnQiIHVuaWNvZGU9IiYjeGVhNWM7IiBob3Jpei1hZHYteD0iMTAwMCIgLz4KPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTc3Ny40IDQyNy42aC0zNDMuMjk5OTk5OTk5OTk5OTVsMTI3LjUtMTI3LjVjOC43OTk5OTk5OTk5OTk5NTUtOC44MDAwMDAwMDAwMDAwMTEgOC43OTk5OTk5OTk5OTk5NTUtMjMuMTAwMDAwMDAwMDAwMDIzIDAtMzEuOTAwMDAwMDAwMDAwMDM0bC01My42MDAwMDAwMDAwMDAwMi01My41OTk5OTk5OTk5OTk5OTRjLTguODAwMDAwMDAwMDAwMDExLTguNzk5OTk5OTk5OTk5OTgzLTIzLjEwMDAwMDAwMDAwMDAyMy04Ljc5OTk5OTk5OTk5OTk4My0zMS44OTk5OTk5OTk5OTk5NzcgMGwtMjY5LjUgMjY5LjRjLTguODAwMDAwMDAwMDAwMDExIDguODAwMDAwMDAwMDAwMDExLTguODAwMDAwMDAwMDAwMDExIDIzLjEwMDAwMDAwMDAwMDAyMy0yLjg0MjE3MDk0MzA0MDQwMWUtMTQgMzEuODk5OTk5OTk5OTk5OTc3bDI2OS41IDI2OS41YzguNzk5OTk5OTk5OTk5OTU1IDguODAwMDAwMDAwMDAwMDY4IDIzLjA5OTk5OTk5OTk5OTk2NiA4LjgwMDAwMDAwMDAwMDA2OCAzMS44OTk5OTk5OTk5OTk5NzcgMGw1My42MDAwMDAwMDAwMDAwMi01My42MDAwMDAwMDAwMDAwMmM4Ljc5OTk5OTk5OTk5OTk1NS04Ljc5OTk5OTk5OTk5OTk1NSA4Ljc5OTk5OTk5OTk5OTk1NS0yMy4wOTk5OTk5OTk5OTk5MSAwLTMxLjg5OTk5OTk5OTk5OTk3N2wtMTM2LjkwMDAwMDAwMDAwMDAzLTEzNi43OTk5OTk5OTk5OTk5NWgzNTIuN2MxMi41IDAgMjIuNjAwMDAwMDAwMDAwMDIzLTEwLjEwMDAwMDAwMDAwMDAyMyAyMi42MDAwMDAwMDAwMDAwMjMtMjIuNjAwMDAwMDAwMDAwMDIzdi05MC4zMDAwMDAwMDAwMDAwMWMwLTEyLjUtMTAuMTAwMDAwMDAwMDAwMDIzLTIyLjU5OTk5OTk5OTk5OTk2Ni0yMi42MDAwMDAwMDAwMDAwMjMtMjIuNTk5OTk5OTk5OTk5OTY2eiIvPgo8L3N2Zz4=\");\n}\n.lb-icon-zoomin{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8bWV0YWRhdGE+SWNvRm9udCBJY29uczwvbWV0YWRhdGE+Cjx0aXRsZT51aS16b29tLWluPC90aXRsZT4KPGdseXBoIGdseXBoLW5hbWU9InVpLXpvb20taW4iIHVuaWNvZGU9IiYjeGVjOTc7IiBob3Jpei1hZHYteD0iMTAwMCIgLz4KPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTk4Mi4yIDc4OC42bC0yMzQuOTAwMDAwMDAwMDAwMS0yMTZjMjcuMTAwMDAwMDAwMDAwMDIzLTUzLjM5OTk5OTk5OTk5OTk4IDQyLjYwMDAwMDAwMDAwMDAyLTExMy42MDAwMDAwMDAwMDAwMiA0Mi42MDAwMDAwMDAwMDAwMi0xNzcuNzAwMDAwMDAwMDAwMDUgMC0yMTguMDk5OTk5OTk5OTk5OTctMTc2Ljc5OTk5OTk5OTk5OTk1LTM5NC45LTM5NS0zOTQuOS0yMTcuOTk5OTk5OTk5OTk5OTcgMC0zOTQuOSAxNzYuOC0zOTQuOSAzOTQuOSAwIDIxOC4yMDAwMDAwMDAwMDAwNSAxNzYuOSAzOTUgMzk0LjkgMzk1IDY0IDAgMTI0LjIwMDAwMDAwMDAwMDA1LTE1LjUgMTc3LjYwMDAwMDAwMDAwMDAyLTQyLjVsMjE2IDIzNWMyMSAyMi44MDAwMDAwMDAwMDAwNjggNTYuMTAwMDAwMDAwMDAwMDIgMjMuNSA3OC4xMDAwMDAwMDAwMDAwMiAxLjYwMDAwMDAwMDAwMDAyMjdsMTE3LjE5OTk5OTk5OTk5OTkzLTExNy4yOTk5OTk5OTk5OTk5NWMyMi0yMiAyMS4yMDAwMDAwMDAwMDAwNDUtNTcuMTAwMDAwMDAwMDAwMDItMS41OTk5OTk5OTk5OTk5MDktNzguMTAwMDAwMDAwMDAwMDJ6IG0tNTg3LjMwMDAwMDAwMDAwMDEtMTUyLjcwMDAwMDAwMDAwMDA1Yy0xMzIuODk5OTk5OTk5OTk5OTggMC0yNDAuNzk5OTk5OTk5OTk5OTgtMTA3Ljg5OTk5OTk5OTk5OTk4LTI0MC43OTk5OTk5OTk5OTk5OC0yNDFzMTA3LjktMjQwLjg5OTk5OTk5OTk5OTk4IDI0MC43OTk5OTk5OTk5OTk5OC0yNDAuODk5OTk5OTk5OTk5OThjMTMzLjEwMDAwMDAwMDAwMDAyIDAgMjQxIDEwNy44OTk5OTk5OTk5OTk5OCAyNDEgMjQwLjg5OTk5OTk5OTk5OTk4cy0xMDcuODk5OTk5OTk5OTk5OTggMjQxLTI0MSAyNDF6IG0xMjUuMzAwMDAwMDAwMDAwMDctMjgyLjVoLTg5LjQwMDAwMDAwMDAwMDAzdi04OS4zOTk5OTk5OTk5OTk5OGMwLTEyLjQwMDAwMDAwMDAwMDAwNi0xMC4xOTk5OTk5OTk5OTk5ODktMjIuNTk5OTk5OTk5OTk5OTk0LTIyLjYwMDAwMDAwMDAwMDAyMy0yMi41OTk5OTk5OTk5OTk5OTRoLTI5LjM5OTk5OTk5OTk5OTk3N2MtMTIuNSAwLTIyLjY5OTk5OTk5OTk5OTk5IDEwLjE5OTk5OTk5OTk5OTk4OS0yMi42OTk5OTk5OTk5OTk5OSAyMi41OTk5OTk5OTk5OTk5OTR2ODkuMzk5OTk5OTk5OTk5OThoLTg5LjQwMDAwMDAwMDAwMDAzYy0xMi4zOTk5OTk5OTk5OTk5NzcgMC0yMi41OTk5OTk5OTk5OTk5OTQgMTAuMjAwMDAwMDAwMDAwMDQ1LTIyLjU5OTk5OTk5OTk5OTk5NCAyMi42MDAwMDAwMDAwMDAwMjN2MjkuNWMwIDEyLjM5OTk5OTk5OTk5OTk3NyAxMC4yMDAwMDAwMDAwMDAwMTcgMjIuNjAwMDAwMDAwMDAwMDIzIDIyLjU5OTk5OTk5OTk5OTk5NCAyMi42MDAwMDAwMDAwMDAwMjNoODkuNDAwMDAwMDAwMDAwMDN2ODkuMzk5OTk5OTk5OTk5OThjMCAxMi41IDEwLjE5OTk5OTk5OTk5OTk4OSAyMi42MDAwMDAwMDAwMDAwMjMgMjIuNjk5OTk5OTk5OTk5OTkgMjIuNjAwMDAwMDAwMDAwMDIzaDI5LjM5OTk5OTk5OTk5OTk3N2MxMi40MDAwMDAwMDAwMDAwMzQgMCAyMi42MDAwMDAwMDAwMDAwMjMtMTAuMTAwMDAwMDAwMDAwMDIzIDIyLjYwMDAwMDAwMDAwMDAyMy0yMi42MDAwMDAwMDAwMDAwMjN2LTg5LjM5OTk5OTk5OTk5OTk4aDg5LjQwMDAwMDAwMDAwMDAzYzEyLjUgMCAyMi41OTk5OTk5OTk5OTk5MS0xMC4yMDAwMDAwMDAwMDAwNDUgMjIuNTk5OTk5OTk5OTk5OTEtMjIuNjAwMDAwMDAwMDAwMDIzdi0yOS41YzAtMTIuMzk5OTk5OTk5OTk5OTc3LTEwLjA5OTk5OTk5OTk5OTkwOS0yMi42MDAwMDAwMDAwMDAwMjMtMjIuNTk5OTk5OTk5OTk5OTEtMjIuNjAwMDAwMDAwMDAwMDIzeiIvPgo8L3N2Zz4=\");\n}\n.lb-icon-zoomout{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8bWV0YWRhdGE+SWNvRm9udCBJY29uczwvbWV0YWRhdGE+Cjx0aXRsZT51aS16b29tLW91dDwvdGl0bGU+CjxnbHlwaCBnbHlwaC1uYW1lPSJ1aS16b29tLW91dCIgdW5pY29kZT0iJiN4ZWM5ODsiIGhvcml6LWFkdi14PSIxMDAwIiAvPgo8cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNOTgyLjIgNzg4LjZsLTIzNC45MDAwMDAwMDAwMDAxLTIxNmMyNy01My41IDQyLjYwMDAwMDAwMDAwMDAyLTExMy43MDAwMDAwMDAwMDAwNSA0Mi42MDAwMDAwMDAwMDAwMi0xNzcuNzAwMDAwMDAwMDAwMDUgMC0yMTguMDk5OTk5OTk5OTk5OTctMTc2Ljg5OTk5OTk5OTk5OTk4LTM5NC45LTM5NC45LTM5NC45LTIxOC4yIDAtMzk1IDE3Ni44LTM5NSAzOTQuOSAwIDIxOC4xMDAwMDAwMDAwMDAwMiAxNzYuOCAzOTUgMzk1IDM5NSA2My44OTk5OTk5OTk5OTk5OCAwIDEyNC4xMDAwMDAwMDAwMDAwMi0xNS41IDE3Ny42MDAwMDAwMDAwMDAwMi00Mi41bDIxNS44OTk5OTk5OTk5OTk5OCAyMzQuODk5OTk5OTk5OTk5OThjMjEgMjIuOTAwMDAwMDAwMDAwMDkgNTYuMjAwMDAwMDAwMDAwMDQ1IDIzLjYwMDAwMDAwMDAwMDAyMyA3OC4yMDAwMDAwMDAwMDAwNSAxLjYwMDAwMDAwMDAwMDAyMjdsMTE3LjI5OTk5OTk5OTk5OTk1LTExNy4yOTk5OTk5OTk5OTk5NWMyMS43OTk5OTk5OTk5OTk5NTUtMjEuODAwMDAwMDAwMDAwMDY4IDIxLjEwMDAwMDAwMDAwMDAyMy01Ny0xLjc5OTk5OTk5OTk5OTk1NDUtNzh6IG0tNTg3LjItMTUyLjcwMDAwMDAwMDAwMDA1Yy0xMzMgMC0yNDAuOS0xMDcuODk5OTk5OTk5OTk5OTgtMjQwLjktMjQwLjg5OTk5OTk5OTk5OTk4czEwNy45LTI0MSAyNDAuOS0yNDFjMTMzLjEwMDAwMDAwMDAwMDAyIDAgMjQwLjg5OTk5OTk5OTk5OTk4IDEwNy44OTk5OTk5OTk5OTk5OCAyNDAuODk5OTk5OTk5OTk5OTggMjQwLjg5OTk5OTk5OTk5OTk4cy0xMDcuODk5OTk5OTk5OTk5OTggMjQxLTI0MC44OTk5OTk5OTk5OTk5OCAyNDF6IG0xMjUuMjk5OTk5OTk5OTk5OTUtMjgyLjVoLTI1My41OTk5OTk5OTk5OTk5N2MtMTIuMzk5OTk5OTk5OTk5OTc3IDAtMjIuNSAxMC4xMDAwMDAwMDAwMDAwMjMtMjIuNSAyMi42MDAwMDAwMDAwMDAwMjN2MjkuNWMwIDEyLjM5OTk5OTk5OTk5OTk3NyAxMC4xMDAwMDAwMDAwMDAwMjMgMjIuNjAwMDAwMDAwMDAwMDIzIDIyLjUgMjIuNjAwMDAwMDAwMDAwMDIzaDI1My41OTk5OTk5OTk5OTk5N2MxMi40MDAwMDAwMDAwMDAwOTEgMCAyMi41LTEwLjEwMDAwMDAwMDAwMDAyMyAyMi41LTIyLjYwMDAwMDAwMDAwMDAyM3YtMjkuNWMwLTEyLjM5OTk5OTk5OTk5OTk3Ny0xMC4wOTk5OTk5OTk5OTk5MDktMjIuNjAwMDAwMDAwMDAwMDIzLTIyLjUtMjIuNjAwMDAwMDAwMDAwMDIzeiIvPgo8L3N2Zz4=\");\n}\n.lb-icon-rotate{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8bWV0YWRhdGE+SWNvRm9udCBJY29uczwvbWV0YWRhdGE+Cjx0aXRsZT51bmRvPC90aXRsZT4KPGdseXBoIGdseXBoLW5hbWU9InVuZG8iIHVuaWNvZGU9IiYjeGVlMGI7IiBob3Jpei1hZHYteD0iMTAwMCIgLz4KPHBhdGggIGZpbGw9IiNmZmZmZmYiIGQ9Ik04OTguMSA2NTVjLTcuMjAwMDAwMDAwMDAwMDQ1NSAyOS41LTExLjM5OTk5OTk5OTk5OTk3NyA1OS43MDAwMDAwMDAwMDAwNDUtMjEuNzAwMDAwMDAwMDAwMDQ1IDg4LjUtNTMuMzk5OTk5OTk5OTk5OTggMTUwLjcwMDAwMDAwMDAwMDA1LTIwMCAyNTUuODk5OTk5OTk5OTk5OTgtMzU4LjI5OTk5OTk5OTk5OTk1IDI1Ni41LTQxLjcwMDAwMDAwMDAwMDA0NSAwLjEwMDAwMDAwMDAwMDAyMjc0LTc2LjMwMDAwMDAwMDAwMDAxLTI4Ljg5OTk5OTk5OTk5OTk3Ny04MC40MDAwMDAwMDAwMDAwMy02Ny4zOTk5OTk5OTk5OTk5OC00LjM5OTk5OTk5OTk5OTk3Ny00MC44OTk5OTk5OTk5OTk5OCAyMC45MDAwMDAwMDAwMDAwMzQtNzcuODk5OTk5OTk5OTk5OTggNjAuNjAwMDAwMDAwMDAwMDItODUuMTAwMDAwMDAwMDAwMDIgMjIuODAwMDAwMDAwMDAwMDEtNC4xMDAwMDAwMDAwMDAwMjMgNDYuNjk5OTk5OTk5OTk5OTktMi4yOTk5OTk5OTk5OTk5NTQ1IDY5LjQwMDAwMDAwMDAwMDAzLTguNSA5Mi4wOTk5OTk5OTk5OTk5MS0yNS4yMDAwMDAwMDAwMDAwNDUgMTUzLTg0IDE3MC43OTk5OTk5OTk5OTk5NS0xNzcuMjk5OTk5OTk5OTk5OTUgMTguODk5OTk5OTk5OTk5OTc3LTk4LjMwMDAwMDAwMDAwMDA3LTkuNS0xODQuMDAwMDAwMDAwMDAwMDYtOTIuMjAwMDAwMDAwMDAwMDUtMjQ2LjQwMDAwMDAwMDAwMDAzLTIzLjM5OTk5OTk5OTk5OTk3Ny0xNy42MDAwMDAwMDAwMDAwMjMtNTAuODk5OTk5OTk5OTk5OTgtMjguMTk5OTk5OTk5OTk5OTktODAtMjktNTYuMTk5OTk5OTk5OTk5OTMtMS41LTExMi4zOTk5OTk5OTk5OTk5OC0wLjQwMDAwMDAwMDAwMDAzNDEtMTY5LjA5OTk5OTk5OTk5OTk3LTAuNDAwMDAwMDAwMDAwMDM0MSAwLjQwMDAwMDAwMDAwMDAzNDEgNy41IDYuNSAxMC4yMDAwMDAwMDAwMDAwNDUgMTAuNDAwMDAwMDAwMDAwMDM0IDE0LjEwMDAwMDAwMDAwMDAyMyAyNy43OTk5OTk5OTk5OTk5NTUgMjguMTAwMDAwMDAwMDAwMDIzIDU2LjM5OTk5OTk5OTk5OTk4IDU1LjYwMDAwMDAwMDAwMDAyIDgzLjc5OTk5OTk5OTk5OTk1IDg0LjEwMDAwMDAwMDAwMDAyIDMxIDMyLjEwMDAwMDAwMDAwMDAyIDMwLjUgNzkuMjk5OTk5OTk5OTk5OTUtMC4wOTk5OTk5OTk5OTk5NjU5IDEwOS42OTk5OTk5OTk5OTk5My0yOS44MDAwMDAwMDAwMDAwMSAyOS42MDAwMDAwMDAwMDAwMjMtNzcuMTAwMDAwMDAwMDAwMDIgMzAuMjAwMDAwMDAwMDAwMDQ1LTEwOC4zMDAwMDAwMDAwMDAwMS0wLjY5OTk5OTk5OTk5OTkzMTgtOTIuNS05MS43MDAwMDAwMDAwMDAwNS0xODQuMi0xODQuMTAwMDAwMDAwMDAwMDItMjc2LjQtMjc1LjkwMDAwMDAwMDAwMDAzLTcuNTAwMDAwMDAwMDAwMDI4LTcuNS02LjIwMDAwMDAwMDAwMDAxNy0xMS4zOTk5OTk5OTk5OTk5NzcgMC42OTk5OTk5OTk5OTk5NzQ0LTE4LjMwMDAwMDAwMDAwMDAxIDkxLjgtOTEuMjk5OTk5OTk5OTk5OTggMTgzLjM5OTk5OTk5OTk5OTk4LTE4Mi44OTk5OTk5OTk5OTk5OCAyNzQuNy0yNzQuNyAxMS44MDAwMDAwMDAwMDAwMTEtMTEuODk5OTk5OTk5OTk5OTg4IDI3LTE2LjY5OTk5OTk5OTk5OTk5IDQxLTI0LjE5OTk5OTk5OTk5OTk5aDI4LjgwMDAwMDAwMDAwMDAxYzEuMzk5OTk5OTk5OTk5OTc3MyAzLjQgNC41OTk5OTk5OTk5OTk5NjYgMy4xIDcuMzk5OTk5OTk5OTk5OTc3IDQuMSA1OC4xOTk5OTk5OTk5OTk5OSAyMC41IDczLjY5OTk5OTk5OTk5OTk5IDg1LjUgMzAuOTAwMDAwMDAwMDAwMDM0IDEzMC05LjUgOS45MDAwMDAwMDAwMDAwMDYtMTkuNSAxOS41LTI5LjMwMDAwMDAwMDAwMDAxIDI5LjIwMDAwMDAwMDAwMDAxNy0yMS41IDIxLjE5OTk5OTk5OTk5OTk5LTQzIDQyLjUtNjguMzAwMDAwMDAwMDAwMDEgNjcuMzk5OTk5OTk5OTk5OThoMjMuMTAwMDAwMDAwMDAwMDIzYzQ3LjM5OTk5OTk5OTk5OTk4IDAgOTQuNjk5OTk5OTk5OTk5OTktMC4zOTk5OTk5OTk5OTk5NzcyNiAxNDIuMTAwMDAwMDAwMDAwMDIgMC4zMDAwMDAwMDAwMDAwMTEzNyAzNC44OTk5OTk5OTk5OTk5OCAwLjU5OTk5OTk5OTk5OTk5NDMgNjkuMTk5OTk5OTk5OTk5OTMgNi41IDEwMS43OTk5OTk5OTk5OTk5NSAxOS4wOTk5OTk5OTk5OTk5OTQgMTEzLjEwMDAwMDAwMDAwMDAyIDQzLjU5OTk5OTk5OTk5OTk5NCAxODIuMzk5OTk5OTk5OTk5OTggMTI3LjUwMDAwMDAwMDAwMDAzIDIyMC4xMDAwMDAwMDAwMDAwMiAyNDAuMjk5OTk5OTk5OTk5OTggOC44OTk5OTk5OTk5OTk5NzcgMjYuNzAwMDAwMDAwMDAwMDQ1IDExLjM5OTk5OTk5OTk5OTk3NyA1NC44MDAwMDAwMDAwMDAwNyAxOC4zOTk5OTk5OTk5OTk5NzcgODEuODAwMDAwMDAwMDAwMDcgMC4xMDAwMDAwMDAwMDAwMjI3NCAyNy41OTk5OTk5OTk5OTk5MSAwLjEwMDAwMDAwMDAwMDAyMjc0IDU1LjE5OTk5OTk5OTk5OTkzIDAuMTAwMDAwMDAwMDAwMDIyNzQgODIuNzk5OTk5OTk5OTk5OTV6Ii8+Cjwvc3ZnPg==\");\n}\n.lb-icon-reset{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaGVpZ2h0PSIxMDAwIiB3aWR0aD0iMTAwMCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgo8bWV0YWRhdGE+SWNvRm9udCBJY29uczwvbWV0YWRhdGE+Cjx0aXRsZT5yZWZyZXNoPC90aXRsZT4KPGdseXBoIGdseXBoLW5hbWU9InJlZnJlc2giIHVuaWNvZGU9IiYjeGVmZDE7IiBob3Jpei1hZHYteD0iMTAwMCIgLz4KPHBhdGggZmlsbD0iI2ZmZmZmZiIgZD0iTTg5OS44IDU1NC42aC00Mi4xOTk5OTk5OTk5OTk5M2MtMTguODk5OTk5OTk5OTk5OTc3IDAtMzYuNSAxNS4xOTk5OTk5OTk5OTk5MzItNDEuNjAwMDAwMDAwMDAwMDIgMzMuMzk5OTk5OTk5OTk5OTgtMzguMjk5OTk5OTk5OTk5OTU1IDEzOC4zOTk5OTk5OTk5OTk5OC0xNjUuMzk5OTk5OTk5OTk5OTggMjQwLTMxNi4yIDI0MC0xMDIuODAwMDAwMDAwMDAwMDEgMC0xOTQuOC00Ny4yOTk5OTk5OTk5OTk5NTUtMjU0LjktMTIxLjYwMDAwMDAwMDAwMDAyLTExLjkwMDAwMDAwMDAwMDAwNi0xNC42OTk5OTk5OTk5OTk5MzItOC44MDAwMDAwMDAwMDAwMTEtMzggNS4wOTk5OTk5OTk5OTk5OTQtNTAuNzk5OTk5OTk5OTk5OTU1bDg0LjgwMDAwMDAwMDAwMDAxLTc3Ljg5OTk5OTk5OTk5OTk4YzEzLjg5OTk5OTk5OTk5OTk3Ny0xMi44MDAwMDAwMDAwMDAwNjggOS44OTk5OTk5OTk5OTk5NzctMjMuMTAwMDAwMDAwMDAwMDIzLTktMjMuMTAwMDAwMDAwMDAwMDIzaC0yMjkuMTAwMDAwMDAwMDAwMDJjLTE4Ljg5OTk5OTk5OTk5OTk5IDAtMzQuMTk5OTk5OTk5OTk5OTkgMTUuMjk5OTk5OTk5OTk5OTU1LTM0LjE5OTk5OTk5OTk5OTk5IDM0LjE5OTk5OTk5OTk5OTkzdjIwNS4xMDAwMDAwMDAwMDAwMmMwIDE4Ljg5OTk5OTk5OTk5OTk3NyAxMS4yOTk5OTk5OTk5OTk5OTcgMjMuODAwMDAwMDAwMDAwMDY4IDI1LjA5OTk5OTk5OTk5OTk5NCAxMWwzMC42MDAwMDAwMDAwMDAwMS0yOC4xOTk5OTk5OTk5OTk5MzJjMTMuODk5OTk5OTk5OTk5OTkxLTEyLjgwMDAwMDAwMDAwMDA2OCAzMy44OTk5OTk5OTk5OTk5OS0xMC42MDAwMDAwMDAwMDAwMjMgNDYuMTAwMDAwMDAwMDAwMDEgMy44OTk5OTk5OTk5OTk5NzczIDgwLjI5OTk5OTk5OTk5OTk4IDk1Ljg5OTk5OTk5OTk5OTk4IDIwMC44OTk5OTk5OTk5OTk5OCAxNTYuODk5OTk5OTk5OTk5OTggMzM1LjUgMTU2Ljg5OTk5OTk5OTk5OTk4IDIxMS40OTk5OTk5OTk5OTk5NCAwIDM4Ny43LTE1MCA0MjguNTk5OTk5OTk5OTk5OTctMzQ5LjIwMDAwMDAwMDAwMDA1IDMuODk5OTk5OTk5OTk5OTc3My0xOC41LTkuNjk5OTk5OTk5OTk5OTMyLTMzLjY5OTk5OTk5OTk5OTkzLTI4LjYwMDAwMDAwMDAwMDAyMy0zMy42OTk5OTk5OTk5OTk5M3ogbTEzLjUtMzU4LjQwMDAwMDAwMDAwMDAzbC0yOS44OTk5OTk5OTk5OTk5NzcgMjkuODAwMDAwMDAwMDAwMDFjLTEzLjM5OTk5OTk5OTk5OTk3NyAxMy4zMDAwMDAwMDAwMDAwMTEtMzIuNzk5OTk5OTk5OTk5OTU1IDExLjUtNDQuNzk5OTk5OTk5OTk5OTU1LTMuMDk5OTk5OTk5OTk5OTk0My04MC4yMDAwMDAwMDAwMDAwNS05Ny45LTIwMi4zMDAwMDAwMDAwMDAwNy0xNjAuNC0zMzguOC0xNjAuNC0yMTEuMTAwMDAwMDAwMDAwMDIgMC0zODcuNiAxNDkuNy00MjguMyAzNDkuMi0zLjc5OTk5OTk5OTk5OTk5NyAxOC41IDkuNzk5OTk5OTk5OTk5OTk3IDMzLjgwMDAwMDAwMDAwMDAxIDI4LjcwMDAwMDAwMDAwMDAwMyAzMy44MDAwMDAwMDAwMDAwMWg0Mi4yYzE4LjkwMDAwMDAwMDAwMDAwNiAwIDM2LjUtMTUuMTAwMDAwMDAwMDAwMDIzIDQxLjUtMzMuMzAwMDAwMDAwMDAwMDEgMzguMjk5OTk5OTk5OTk5OTgtMTM4LjggMTY1LjQtMjQwLjIgMzE1LjktMjQwLjIgMTA2LjYwMDAwMDAwMDAwMDAyIDAgMjAxLjIwMDAwMDAwMDAwMDA1IDUwLjUgMjYxLjIwMDAwMDAwMDAwMDA1IDEyOS4xMDAwMDAwMDAwMDAwMiAxMS41IDE1IDguMzk5OTk5OTk5OTk5OTc3IDM5LTQuODk5OTk5OTk5OTk5OTc3IDUyLjI5OTk5OTk5OTk5OTk1NWwtNjcuODAwMDAwMDAwMDAwMDcgNjcuOTAwMDAwMDAwMDAwMDNjLTEzLjI5OTk5OTk5OTk5OTk1NSAxMy4zOTk5OTk5OTk5OTk5NzctOC44OTk5OTk5OTk5OTk5NzcgMjQuMTk5OTk5OTk5OTk5OTkgMTAgMjQuMTk5OTk5OTk5OTk5OTloMjA1LjEwMDAwMDAwMDAwMDAyYzE4Ljg5OTk5OTk5OTk5OTk3NyAwIDM0LjIwMDAwMDAwMDAwMDA0NS0xNS4zMDAwMDAwMDAwMDAwMTEgMzQuMjAwMDAwMDAwMDAwMDQ1LTM0LjE5OTk5OTk5OTk5OTk5di0yMDUuMTAwMDAwMDAwMDAwMDJjLTAuMTAwMDAwMDAwMDAwMDIyNzQtMTguODk5OTk5OTk5OTk5OTc3LTEwLjg5OTk5OTk5OTk5OTk3Ny0yMy4zOTk5OTk5OTk5OTk5NzctMjQuMzAwMDAwMDAwMDAwMDY4LTEweiIvPgo8L3N2Zz4=\");\n}\n.lb-container{\n    z-index: 50000;\n    position: absolute;\n    position: fixed;\n    left:0px;\n    top:0px;\n    width: 100%;\n    height: 100%;\n    background-color: #000;\n    background-color: rgba(0,0,0,0.8);\n    display: flex;\n    flex-direction: column;\n}\n.lb-container .lb-header{\n    height: 50px;\n    background: #000;\n    background: rgba(0,0,0,0.9);\n    box-shadow: 0px 1px 5px 0px #111;\n    box-sizing: border-box;\n    display: flex;\n    align-items: stretch;\n    justify-content: flex-end;\n    z-index: 10;\n}\n.lb-header .lb-button{\n    padding: 10px 25px;\n    background-size: 40% auto;\n    background-position: center center;\n    background-repeat: no-repeat;\n    cursor: pointer;\n}\n.lb-header .lb-button:not(:last-child){\n    margin-right: 3px;\n}\n.lb-header .lb-button:hover{\n    background-color:#777;\n}\n\n.lb-header .lb-button.rotater{\n    transform: rotateY(180deg);\n}\n.lb-header .lb-button.next{\n    transform: rotateY(180deg);\n}\n.lb-header .lb-title{\n    flex: 1;\n    align-items: center;\n    color: white;\n    font-size: 1.1em;\n    padding: 0em 0.8em;\n    overflow: hidden;\n}\n.lb-header .lb-title span{\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n    width: 100%;\n}\n.lb-container .lb-canvas{\n    flex: 1;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    overflow: hidden;\n    max-width: 100%;\n    max-height: 100%;\n    position: relative;\n}\n.lb-canvas .lb-img{\n    max-width: 80vw;\n    max-height: 80vh;\n    min-width: 100px;\n    min-height: 100px;\n    /* transition: all 0.1s; */\n    cursor: grab;\n    background-size: 50px;\n    transform-origin: center center;\n}\n.lb-canvas .lb-img.lb-loading{\n    opacity: 0;\n}\n.lb-canvas.lb-loading{\n    background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBzdHlsZT0ibWFyZ2luOiBhdXRvOyBiYWNrZ3JvdW5kOiBub25lOyBkaXNwbGF5OiBibG9jazsgc2hhcGUtcmVuZGVyaW5nOiBhdXRvOyIgd2lkdGg9IjEwMXB4IiBoZWlnaHQ9IjEwMXB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSgwIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC45MzMzMzMzMzMzMzMzMzMzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgyNCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ4LjUiIHk9IjI1IiByeD0iMCIgcnk9IjAiIHdpZHRoPSIzIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZmZmZmZmIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuODY2NjY2NjY2NjY2NjY2N3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDggNTAgNTApIj4KICA8cmVjdCB4PSI0OC41IiB5PSIyNSIgcng9IjAiIHJ5PSIwIiB3aWR0aD0iMyIgaGVpZ2h0PSIxMCIgZmlsbD0iI2ZmZmZmZiI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjhzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDcyIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC43MzMzMzMzMzMzMzMzMzMzcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSg5NiA1MCA1MCkiPgogIDxyZWN0IHg9IjQ4LjUiIHk9IjI1IiByeD0iMCIgcnk9IjAiIHdpZHRoPSIzIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZmZmZmZmIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuNjY2NjY2NjY2NjY2NjY2NnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMTIwIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC42cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgxNDQgNTAgNTApIj4KICA8cmVjdCB4PSI0OC41IiB5PSIyNSIgcng9IjAiIHJ5PSIwIiB3aWR0aD0iMyIgaGVpZ2h0PSIxMCIgZmlsbD0iI2ZmZmZmZiI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjUzMzMzMzMzMzMzMzMzMzNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDE2OCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ4LjUiIHk9IjI1IiByeD0iMCIgcnk9IjAiIHdpZHRoPSIzIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZmZmZmZmIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuNDY2NjY2NjY2NjY2NjY2N3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMTkyIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC40cyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz48ZyB0cmFuc2Zvcm09InJvdGF0ZSgyMTYgNTAgNTApIj4KICA8cmVjdCB4PSI0OC41IiB5PSIyNSIgcng9IjAiIHJ5PSIwIiB3aWR0aD0iMyIgaGVpZ2h0PSIxMCIgZmlsbD0iI2ZmZmZmZiI+CiAgICA8YW5pbWF0ZSBhdHRyaWJ1dGVOYW1lPSJvcGFjaXR5IiB2YWx1ZXM9IjE7MCIga2V5VGltZXM9IjA7MSIgZHVyPSIxcyIgYmVnaW49Ii0wLjMzMzMzMzMzMzMzMzMzMzNzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDI0MCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ4LjUiIHk9IjI1IiByeD0iMCIgcnk9IjAiIHdpZHRoPSIzIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZmZmZmZmIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuMjY2NjY2NjY2NjY2NjY2NjZzIiByZXBlYXRDb3VudD0iaW5kZWZpbml0ZSI+PC9hbmltYXRlPgogIDwvcmVjdD4KPC9nPjxnIHRyYW5zZm9ybT0icm90YXRlKDI2NCA1MCA1MCkiPgogIDxyZWN0IHg9IjQ4LjUiIHk9IjI1IiByeD0iMCIgcnk9IjAiIHdpZHRoPSIzIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZmZmZmZmIj4KICAgIDxhbmltYXRlIGF0dHJpYnV0ZU5hbWU9Im9wYWNpdHkiIHZhbHVlcz0iMTswIiBrZXlUaW1lcz0iMDsxIiBkdXI9IjFzIiBiZWdpbj0iLTAuMnMiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMjg4IDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC4xMzMzMzMzMzMzMzMzMzMzM3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMzEyIDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSItMC4wNjY2NjY2NjY2NjY2NjY2N3MiIHJlcGVhdENvdW50PSJpbmRlZmluaXRlIj48L2FuaW1hdGU+CiAgPC9yZWN0Pgo8L2c+PGcgdHJhbnNmb3JtPSJyb3RhdGUoMzM2IDUwIDUwKSI+CiAgPHJlY3QgeD0iNDguNSIgeT0iMjUiIHJ4PSIwIiByeT0iMCIgd2lkdGg9IjMiIGhlaWdodD0iMTAiIGZpbGw9IiNmZmZmZmYiPgogICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0ib3BhY2l0eSIgdmFsdWVzPSIxOzAiIGtleVRpbWVzPSIwOzEiIGR1cj0iMXMiIGJlZ2luPSIwcyIgcmVwZWF0Q291bnQ9ImluZGVmaW5pdGUiPjwvYW5pbWF0ZT4KICA8L3JlY3Q+CjwvZz4KPCEtLSBbbGRpb10gZ2VuZXJhdGVkIGJ5IGh0dHBzOi8vbG9hZGluZy5pby8gLS0+PC9zdmc+\");\n    background-position: center center;\n    background-repeat: no-repeat;\n}\n.mobile-controls{\n    position: absolute;\n    bottom: 25px;\n    left: 0px;\n    width: 100%;\n    height: 45px;\n    display: flex;\n    justify-content: center;\n}\n.mobile-controls .lb-button{\n    width: 50px;\n    height: 50px;\n    background-color: rgba(0,0,0,0.9);\n    background-position: center center;\n    background-size: 40%;\n    background-repeat: no-repeat;\n    margin: 0.2em;\n    cursor: pointer;\n}\n.mobile-controls .lb-button:active{\n    background-color:#777;\n}\n.mobile-controls .lb-button.next{\n    transform: rotateY(180deg);\n}\n.lb-show-mobile{\n    display: none;   \n}\n.disabled{\n    pointer-events: none;\n    touch-action: none;\n    opacity: 0.4;\n}\n@media (max-width:600px){\n    .lb-header .lb-button:hover{\n        background-color: inherit;\n    }\n    .lb-header .lb-button:active{\n        background-color: #777;\n    }\n    .lb-show-mobile{\n        display: flex !important;\n    }\n    .lb-hide-mobile{\n        display: none !important;\n    }\n    .lb-canvas .lb-img{\n        max-height: 60vh;\n    }\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/history/esm/history.js":
 /*!*********************************************!*\
   !*** ./node_modules/history/esm/history.js ***!
@@ -60919,6 +61025,47 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 
+/***/ "./node_modules/react-awesome-lightbox/build/index.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-awesome-lightbox/build/index.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports=function(t){var e={};function o(n){if(e[n])return e[n].exports;var r=e[n]={i:n,l:!1,exports:{}};return t[n].call(r.exports,r,r.exports,o),r.l=!0,r.exports}return o.m=t,o.c=e,o.d=function(t,e,n){o.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:n})},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.t=function(t,e){if(1&e&&(t=o(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var r in t)o.d(n,r,function(e){return t[e]}.bind(null,r));return n},o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,"a",e),e},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},o.p="",o(o.s=1)}([function(t,e){t.exports=__webpack_require__(/*! react */ "./node_modules/react/index.js")},function(t,e,o){"use strict";o.r(e),o.d(e,"default",(function(){return b}));var n=o(0),r=o.n(n);function i(t){return(i="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(t)}function a(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function l(t,e){for(var o=0;o<e.length;o++){var n=e[o];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(t,n.key,n)}}function c(t,e){return(c=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(t,e)}function u(t){var e=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(t){return!1}}();return function(){var o,n=d(t);if(e){var r=d(this).constructor;o=Reflect.construct(n,arguments,r)}else o=n.apply(this,arguments);return s(this,o)}}function s(t,e){return!e||"object"!==i(e)&&"function"!=typeof e?f(t):e}function f(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}function d(t){return(d=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)})(t)}function m(t,e,o){return e in t?Object.defineProperty(t,e,{value:o,enumerable:!0,configurable:!0,writable:!0}):t[e]=o,t}function p(t){var e=0,o=0;return t.touches&&t.touches.length?(e=t.touches[0].pageX,o=t.touches[0].pageY):(e=t.pageX,o=t.pageY),{x:e,y:o}}function v(t){return t.condition?r.a.createElement(r.a.Fragment,null,t.children):null}var b=function(t){!function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),e&&c(t,e)}(s,t);var e,o,n,i=u(s);function s(){var t,e,o,n,l;a(this,s);for(var c=arguments.length,u=new Array(c),d=0;d<c;d++)u[d]=arguments[d];return m(f(l=i.call.apply(i,[this].concat(u))),"initX",0),m(f(l),"initY",0),m(f(l),"lastX",0),m(f(l),"lastY",0),m(f(l),"_cont",r.a.createRef()),m(f(l),"state",{x:0,y:0,zoom:1,rotate:0,loading:!0,moving:!1,current:null!==(t=null===(e=l.props)||void 0===e?void 0:e.startIndex)&&void 0!==t?t:0,multi:!!(null===(o=l.props)||void 0===o||null===(n=o.images)||void 0===n?void 0:n.length)}),m(f(l),"createTransform",(function(t,e,o,n){return"translate3d(".concat(t,"px,").concat(e,"px,0px) scale(").concat(o,") rotate(").concat(n,"deg)")})),m(f(l),"stopSideEffect",(function(t){return t.stopPropagation()})),m(f(l),"getCurrentImage",(function(t,e){var o,n,r,i,a;return t.multi?null!==(n=null!==(r=null===(i=e.images[t.current])||void 0===i?void 0:i.url)&&void 0!==r?r:null===(a=e.images)||void 0===a?void 0:a[t.current])&&void 0!==n?n:"":null!==(o=e.image)&&void 0!==o?o:""})),m(f(l),"getCurrentTitle",(function(t,e){var o,n,r,i;return t.multi?null!==(n=null===(r=e.images)||void 0===r||null===(i=r[t.current])||void 0===i?void 0:i.title)&&void 0!==n?n:"":null!==(o=e.title)&&void 0!==o?o:""})),m(f(l),"resetZoom",(function(){return l.setState({x:0,y:0,zoom:1})})),m(f(l),"shockZoom",(function(t){var e,o,n=l.props,r=n.zoomStep,i=void 0===r?.3:r,a=n.allowZoom,c=void 0===a||a,u=n.doubleClickZoom,s=void 0===u?4:u;if(!c||!s)return!1;if(l.stopSideEffect(t),l.state.zoom>1)return l.resetZoom();var f=(i<1?Math.ceil(s/i):i)*i,d=p(t),m=null===(e=l._cont.current)||void 0===e||null===(o=e.getBoundingClientRect)||void 0===o?void 0:o.call(e),v=m.x+m.width/2,b=m.y+m.height/2,y=-1*(d.x-v)*f,g=-1*(d.y-b)*f;l.setState({x:y,y:g,zoom:f})})),m(f(l),"navigateImage",(function(t,e){l.stopSideEffect(e);var o=0;switch(t){case"next":o=l.state.current+1;break;case"prev":o=l.state.current-1}o>=l.props.images.length?o=0:o<0&&(o=l.props.images.length-1),l.setState({current:o,x:0,y:0,zoom:1,rotate:0,loading:!0})})),m(f(l),"startMove",(function(t){if(l.state.zoom<=1)return!1;l.setState({moving:!0});var e=p(t);l.initX=e.x-l.lastX,l.initY=e.y-l.lastY})),m(f(l),"duringMove",(function(t){if(!l.state.moving)return!1;var e=p(t);l.lastX=e.x-l.initX,l.lastY=e.y-l.initY,l.setState({x:e.x-l.initX,y:e.y-l.initY})})),m(f(l),"endMove",(function(t){return l.setState({moving:!1})})),m(f(l),"applyZoom",(function(t){var e=l.props.zoomStep,o=void 0===e?.3:e;switch(t){case"in":l.setState({zoom:l.state.zoom+o});break;case"out":var n=l.state.zoom-o;if(n<1)break;1===n?l.setState({x:0,y:0,zoom:1}):l.setState({zoom:n});break;case"reset":l.resetZoom()}})),m(f(l),"applyRotate",(function(t){switch(t){case"cw":l.setState({rotate:l.state.rotate+90});break;case"acw":l.setState({rotate:l.state.rotate-90})}})),m(f(l),"reset",(function(t){l.stopSideEffect(t),l.setState({x:0,y:0,zoom:1,rotate:0})})),m(f(l),"exit",(function(t){if("function"==typeof l.props.onClose)return l.props.onClose(t);console.error("No Exit function passed on prop: onClose. Clicking the close button will do nothing")})),m(f(l),"shouldShowReset",(function(){return l.state.x||l.state.y||1!==l.state.zoom||0!==l.state.rotate})),m(f(l),"canvasClick",(function(t){var e=l.props.clickOutsideToExit;if((void 0===e||e)&&l.state.zoom<=1)return l.exit(t)})),m(f(l),"keyboardNavigation",(function(t){var e=l.props,o=e.allowZoom,n=void 0===o||o,r=e.allowReset,i=void 0===r||r,a=l.state,c=a.multi,u=a.x,s=a.y,f=a.zoom;switch(t.key){case"ArrowLeft":c&&1===f?l.navigateImage("prev",t):f>1&&l.setState({x:u-20});break;case"ArrowRight":c&&1===f?l.navigateImage("next",t):f>1&&l.setState({x:u+20});break;case"ArrowUp":f>1&&l.setState({y:s+20});break;case"ArrowDown":f>1&&l.setState({y:s-20});break;case"+":n&&l.applyZoom("in");break;case"-":n&&l.applyZoom("out");break;case"Escape":i&&l.shouldShowReset()?l.reset(t):l.exit(t)}})),l}return e=s,(o=[{key:"componentDidMount",value:function(){document.body.classList.add("lb-open-lightbox");var t=this.props.keyboardInteraction;(void 0===t||t)&&document.addEventListener("keyup",this.keyboardNavigation)}},{key:"componentWillUnmount",value:function(){document.body.classList.remove("lb-open-lightbox");var t=this.props.keyboardInteraction;(void 0===t||t)&&document.removeEventListener("keyup",this.keyboardNavigation)}},{key:"render",value:function(){var t=this,e=this.getCurrentImage(this.state,this.props),o=this.getCurrentTitle(this.state,this.props);if(!e)return console.warn("Not showing lightbox because no image(s) was supplied"),null;var n=this.props,i=n.allowZoom,a=void 0===i||i,l=n.allowRotate,c=void 0===l||l,u=n.buttonAlign,s=void 0===u?"flex-end":u,f=n.showTitle,d=void 0===f||f,m=n.allowReset,p=void 0===m||m,b=this.state,y=b.x,g=b.y,h=b.zoom,x=b.rotate,w=b.multi,k=b.loading,S=b.moving,E=p&&this.shouldShowReset();return r.a.createElement("div",{className:"lb-container"},r.a.createElement("div",{className:"lb-header",style:{justifyContent:s}},r.a.createElement(v,{condition:d&&o},r.a.createElement("div",{className:"lb-title",style:{display:"center"===s?"none":"flex",order:"flex-start"===s?"2":"unset"}},r.a.createElement("span",{title:o,style:{textAlign:"flex-start"===s?"right":"left"}},o))),r.a.createElement(v,{condition:"center"===s||E},r.a.createElement("div",{title:"Reset",style:{order:"flex-start"===s?"1":"unset"},className:"lb-button lb-icon-reset lb-hide-mobile reload ".concat(E?"":"disabled"),onClick:this.reset})),r.a.createElement(v,{condition:w},r.a.createElement("div",{title:"Previous",className:"lb-button lb-icon-arrow prev lb-hide-mobile",onClick:function(e){return t.navigateImage("prev",e)}}),r.a.createElement("div",{title:"Next",className:"lb-button lb-icon-arrow next lb-hide-mobile",onClick:function(e){return t.navigateImage("next",e)}})),r.a.createElement(v,{condition:a},r.a.createElement("div",{title:"Zoom In",className:"lb-button lb-icon-zoomin zoomin",onClick:function(){return t.applyZoom("in")}}),r.a.createElement("div",{title:"Zoom Out",className:"lb-button lb-icon-zoomout zoomout ".concat(h<=1?"disabled":""),onClick:function(){return t.applyZoom("out")}})),r.a.createElement(v,{condition:c},r.a.createElement("div",{title:"Rotate left",className:"lb-button lb-icon-rotate rotatel",onClick:function(){return t.applyRotate("acw")}}),r.a.createElement("div",{title:"Rotate right",className:"lb-button lb-icon-rotate rotater",onClick:function(){return t.applyRotate("cw")}})),r.a.createElement("div",{title:"Close",className:"lb-button lb-icon-close close",style:{order:"flex-start"===s?"-1":"unset"},onClick:function(e){return t.exit(e)}})),r.a.createElement("div",{className:"lb-canvas".concat(k?" lb-loading":""),ref:this._cont,onClick:function(e){return t.canvasClick(e)}},r.a.createElement("img",{draggable:"false",style:{transform:this.createTransform(y,g,h,x),cursor:h>1?"grab":"unset",transition:S?"none":"all 0.1s"},onMouseDown:function(e){return t.startMove(e)},onTouchStart:function(e){return t.startMove(e)},onMouseMove:function(e){return t.duringMove(e)},onTouchMove:function(e){return t.duringMove(e)},onMouseUp:function(e){return t.endMove(e)},onMouseLeave:function(e){return t.endMove(e)},onTouchEnd:function(e){return t.endMove(e)},onClick:function(e){return t.stopSideEffect(e)},onDoubleClick:function(e){return t.shockZoom(e)},onLoad:function(e){return t.setState({loading:!1})},className:"lb-img".concat(k?" lb-loading":""),title:o,src:e,alt:o}),r.a.createElement("div",{className:"mobile-controls lb-show-mobile"},w?r.a.createElement("div",{title:"Previous",className:"lb-button lb-icon-arrow prev",onClick:function(e){return t.navigateImage("prev",e)}}):null,E?r.a.createElement("div",{title:"Reset",className:"lb-button lb-icon-reset reload",onClick:this.reset}):null,w?r.a.createElement("div",{title:"Next",className:"lb-button lb-icon-arrow next",onClick:function(e){return t.navigateImage("next",e)}}):null)))}}])&&l(e.prototype,o),n&&l(e,n),s}(r.a.Component)}]);
+
+/***/ }),
+
+/***/ "./node_modules/react-awesome-lightbox/build/style.css":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-awesome-lightbox/build/style.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./style.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-awesome-lightbox/build/style.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -91164,6 +91311,515 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
+  return document.querySelector(target);
+};
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(target, parent) {
+                // If passing function in options, then use it for resolve "head" element.
+                // Useful for Shadow Root style i.e
+                // {
+                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
+                // }
+                if (typeof target === 'function') {
+                        return target();
+                }
+                if (typeof memo[target] === "undefined") {
+			var styleTarget = getTarget.call(this, target, parent);
+			// Special case to return head of iframe instead of iframe itself
+			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[target] = styleTarget;
+		}
+		return memo[target]
+	};
+})();
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+        if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertAt.before, target);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
+	}
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js":
 /*!****************************************************************!*\
   !*** ./node_modules/tiny-invariant/dist/tiny-invariant.esm.js ***!
@@ -91437,6 +92093,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
 /* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_awesome_lightbox__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-awesome-lightbox */ "./node_modules/react-awesome-lightbox/build/index.js");
+/* harmony import */ var react_awesome_lightbox__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_awesome_lightbox__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_awesome_lightbox_build_style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-awesome-lightbox/build/style.css */ "./node_modules/react-awesome-lightbox/build/style.css");
+/* harmony import */ var react_awesome_lightbox_build_style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_awesome_lightbox_build_style_css__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -91459,6 +92119,9 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
+
+
+ // You need to import the CSS only once
 
 
 
@@ -91485,7 +92148,17 @@ var Gallery = /*#__PURE__*/function (_Component) {
     value: function componentDidMount() {
       var _this2 = this;
 
-      fetch("/api/photos").then(function (res) {
+      fetch("/api/photos", {
+        method: "GET",
+        // *Type of request GET, POST, PUT, DELETE
+        headers: {
+          "Content-Type": "application/json",
+          // request content type
+          "X-Requested-With": "XMLHttpRequest",
+          "mode": "cors" // 'Authorization':'Bearer ' + token
+
+        }
+      }).then(function (res) {
         return res.json();
       }).then(function (result) {
         console.log(result);

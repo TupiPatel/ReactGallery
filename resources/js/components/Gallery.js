@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Moment from 'react-moment';
+import Lightbox from "react-awesome-lightbox";
+// You need to import the CSS only once
+import "react-awesome-lightbox/build/style.css";
 
 export default class Gallery extends Component {
 
@@ -7,12 +10,22 @@ export default class Gallery extends Component {
         super(props)
         this.state = {
           user: {},
-          photos : []
+          photos : [],
         }
     }
 
     componentDidMount() {
-        fetch("/api/photos")
+        fetch("/api/photos", {
+            method: "GET", // *Type of request GET, POST, PUT, DELETE
+       
+            headers: {
+              "Content-Type": "application/json", // request content type
+              "X-Requested-With": "XMLHttpRequest",
+              "mode": "cors",
+             // 'Authorization':'Bearer ' + token
+            },
+           
+          })
           .then(res => res.json())
           .then(
             (result) => {
@@ -29,6 +42,7 @@ export default class Gallery extends Component {
             }
           )
       }
+      
 
 
     render() {
@@ -40,7 +54,7 @@ export default class Gallery extends Component {
                 <div className="card ">
                     <div className="row profile">
                         <div className="column column1">
-                            <img src={window.location.origin + '/' + user.profile } height="300" width="300" className="profile-pic"></img>
+                            <img src={window.location.origin + '/' + user.profile } height="300" width="300" className="profile-pic"  ></img>
                         </div>
                         <div className="column column2">
                             <span className="full-name"> { user.name }</span>
@@ -67,6 +81,8 @@ export default class Gallery extends Component {
                             <div key={index} className="column-card card">
                                
                                     <img src={window.location.origin + '/' +item.img} className="card-img-top" alt="..." />
+                                  
+                                       {/* <Lightbox image={window.location.origin + '/' +item.img} title="Image Title" /> */}
                                     <h5 className="card-title bottom-left">{item.title}</h5>
                                     <div className="card-body">
                                         <p className="card-text">{item.description}</p>

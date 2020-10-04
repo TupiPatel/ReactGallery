@@ -78,5 +78,6 @@ class RegisterController extends Controller
             'bio' => $data['bio'],
             'phone' => $data['phone'],
         ]);
+        
     }
 }
